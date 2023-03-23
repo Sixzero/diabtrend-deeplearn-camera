@@ -34,7 +34,9 @@ const RecognitionCamera = (props) => {
 }
 ```
 
-- apiKey: will be used for authorization when downloading the food recognition model. It will happen on the first instantiation of the camera. Also we use this API key for telemetry data.
+- apiKey: Will be used for authorization when downloading the food recognition model. It will happen on the first instantiation of the camera. Also we use this API key for telemetry data. 
+The pricing for the API key is discussed with DiabTrend. It is offered on a usage-based(only successful ones) and yearly licensing model. Contact DiabTrend to learn more: https://diabtrend.com/contact.
+
 
 ## Interacting with the food database
 
