@@ -65,7 +65,7 @@ It will return an object of `{FOOD_ID: FOOD_OBJ, ...}` mapping. Food object cont
 - uid: Each user can have created foods. 
 
 - foodtrend2Url: The url of the food database cache layer.
-- 
+
 - apiKey: will be used to validate usage authority.
 
 
