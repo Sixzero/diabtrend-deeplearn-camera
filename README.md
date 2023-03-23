@@ -1,6 +1,7 @@
 # diabtrend-dl-camera
 
-Camera based food recognition by DiabTrend
+Camera based food recognition on the edge by DiabTrend.
+The recognition is running with 30-60FPS even on low end devices and providing continuous recognitions. We differentiate between 1300 different food categories, each category has many different foods in the category.  
 
 ## Installation
 
@@ -107,6 +108,10 @@ const {changes} = await getFoodDBFromM({foodDatabaseLanguage, uid, m: mMax, food
 ```
 
 - `m`: must be always specified, even if you just want to receive the data for a specific foodid, and we will always receive the new changes beside the specific `foodid`.
+
+## Customs food databases
+
+Custom databases can be used but needs further work. There will be a need for a mapping between the food IDs between the current food database to the custom one. 
 
 ## License
 
