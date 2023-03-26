@@ -53,9 +53,9 @@ Remember to add tests for your change if possible. Run the unit tests by:
 yarn test
 ```
 
-To edit the Objective-C or Swift files, open `example/ios/DiabtrendDlCameraExample.xcworkspace` in XCode and find the source files at `Pods > Development Pods > diabtrend-dl-camera`.
+To edit the Objective-C or Swift files, open `example/ios/DiabtrendDlCameraExample.xcworkspace` in XCode and find the source files at `Pods > Development Pods > diabtrend-deeplearn-camera`.
 
-To edit the Java or Kotlin files, open `example/android` in Android studio and find the source files at `diabtrend-dl-camera` under `Android`.
+To edit the Java or Kotlin files, open `example/android` in Android studio and find the source files at `diabtrend-deeplearn-camera` under `Android`.
 
 
 ### Commit message convention

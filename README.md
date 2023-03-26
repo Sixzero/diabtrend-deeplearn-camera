@@ -1,4 +1,4 @@
-# diabtrend-dl-camera
+# diabtrend-deeplearn-camera
 
 Camera based food recognition on the edge by DiabTrend.
 The recognition is running with 30-60FPS even on low end devices and providing continuous recognitions. We differentiate between 1300 different food categories, each category has many different foods in the category.  
@@ -6,7 +6,7 @@ The recognition is running with 30-60FPS even on low end devices and providing c
 ## Installation
 
 ```sh
-npm install diabtrend-dl-camera
+npm install diabtrend-deeplearn-camera
 ```
 
 ## Usage
